@@ -1,0 +1,67 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Travel Planning Survey</title>
+</head>
+<body>
+    <h1>HELP US IMPROVE TRAVEL PLANNING</h1>
+    <p>(3-minute survey, anonymous)</p>
+
+    <form>
+        <label>How often do you travel for work/leisure?</label><br>
+        <input type="radio" name="frequency" value="monthly"> Monthly<br>
+        <input type="radio" name="frequency" value="quarterly"> Quarterly<br>
+        <input type="radio" name="frequency" value="yearly"> Yearly<br><br>
+
+        <label>What’s your typical budget for flights per trip?</label><br>
+        <input type="radio" name="budget" value="<200"> &lt;$200<br>
+        <input type="radio" name="budget" value="200-500"> $200-$500<br>
+        <input type="radio" name="budget" value="500+"> $500+<br><br>
+
+        <label>How satisfied are you with current flight booking apps? (1-5 scale)</label><br>
+        <input type="range" name="satisfaction" min="1" max="5"><br><br>
+
+        <label>How stressful is finding accommodation that matches your flight schedule? (1-5 scale)</label><br>
+        <input type="range" name="stress" min="1" max="5"><br><br>
+
+        <label>What’s your biggest pain point when coordinating flights and accommodation?</label><br>
+        <input type="checkbox" name="pain" value="price"> Price discrepancies<br>
+        <input type="checkbox" name="pain" value="time"> Time management<br>
+        <input type="checkbox" name="pain" value="tools"> Lack of integrated tools<br>
+        <input type="text" name="pain_other" placeholder="Other"><br><br>
+
+        <label>How likely would you use an app that matches flights with apartment availability automatically / suggests apartments based on flight schedules? (1-5 scale)</label><br>
+        <input type="range" name="likelihood" min="1" max="5"><br><br>
+
+        <label>Which feature matters most?</label><br>
+        <input type="radio" name="feature" value="availability"> Real-time availability<br>
+        <input type="radio" name="feature" value="price"> Price comparisons<br>
+        <input type="radio" name="feature" value="cancellation"> Flexible cancellation<br><br>
+
+        <label>What’s the MAX you’d pay monthly for this service?</label><br>
+        <input type="radio" name="payment" value="5-10">$5-$10<br>
+        <input type="radio" name="payment" value="20-30">$20-$30<br>
+        <input type="radio" name="payment" value="one-time">Only one-time fee per booking<br><br>
+
+        <label>Would you prefer a subscription or pay-per-use model?</label><br>
+        <input type="text" name="model"><br><br>
+
+        <label>What’s one thing missing in current travel apps?</label><br>
+        <textarea name="missing" rows="4" cols="50"></textarea><br><br>
+
+        <input type="submit" value="Submit">
+    </form>
+
+    <h2>Validation Roadmap</h2>
+    <ul>
+        <li><strong>Week 1-2: Preparation</strong></li>
+        <li>Finalize interview/survey questions</li>
+        <li>Identify target aim</li>
+        <li>LinkedIn/Facebook travel groups</li>
+        <li>Airports, coworking spaces, travel forums</li>
+        <li>Use <a href="https://calendly.com/everistus-kevesta/30min">Calendly</a> to schedule interviews</li>
+    </ul>
+</body>
+</html>
